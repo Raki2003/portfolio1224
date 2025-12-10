@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Grad Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-brand">Your Name</div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="btn btn-ghost" id="themeToggle" aria-label="Toggle theme">☀</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Hello, I am</p>
+        <h1>Fresh Graduate <span>Web Developer</span></h1>
+        <p class="lede">
+          I craft responsive, accessible, and modern web experiences using HTML, CSS, and JavaScript.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Hire Me</a>
+        </div>
+        <div class="pill-group">
+          <span class="pill">Ready to learn</span>
+          <span class="pill">Open to roles</span>
+          <span class="pill">Remote friendly</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="profile-circle">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80" alt="Profile">
+        </div>
+        <div class="card">
+          <p class="card-label">Currently exploring</p>
+          <p class="card-title">Front-end Engineering</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 68%"></div>
+          </div>
+          <p class="progress-caption">Continuously learning</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2>A quick intro</h2>
+        <p class="section-desc">
+          I recently graduated and love turning ideas into clean, polished interfaces. I move fast, ask good questions, and keep quality high.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>What I do</h3>
+          <p>Front-end development, UI prototyping, responsive layouts, and a bit of UX thinking.</p>
+        </div>
+        <div class="about-card">
+          <h3>How I work</h3>
+          <p>Collaborative, feedback-friendly, with an eye for detail and accessibility.</p>
+        </div>
+        <div class="about-card">
+          <h3>Goals</h3>
+          <p>Join a team where I can ship features, learn from mentors, and contribute to impactful products.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-head">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools I use</h2>
+        <p class="section-desc">Comfortable across the front-end stack and always improving.</p>
+      </div>
+      <div class="tags">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+        <span>Accessibility</span><span>Git</span><span>Figma</span><span>REST APIs</span>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <p class="stat-number" data-count="15">0</p>
+          <p class="stat-label">mini projects</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-number" data-count="120">0</p>
+          <p class="stat-label">commits</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-number" data-count="4">0</p>
+          <p class="stat-label">team collabs</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-head">
+        <p class="eyebrow">Projects</p>
+        <h2>Recent work</h2>
+        <p class="section-desc">A few highlights showcasing visual polish, accessibility, and performance.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <a href="https://rakeshquizappproj.netlify.app/">
+            <div class="project-image" style="background-image:url('https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="project-body">
+            <p class="project-label">UI / Front-end</p>
+            <h3>Quiz app</h3>
+            <p>Responsive landing page with smooth scroll, reusable components, and semantic HTML.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span> 
+            <a href="git-hubjei"> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width:20px;height:20px;"/></a>
+
+            </a>
+            </div>
+          </div>
+          </a>
+        </article>
+        <article class="project-card">
+          <div class="project-image" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80');"></div>
+          <div class="project-body">
+            <p class="project-label">Accessibility</p>
+            <h3>Quiz App</h3>
+            <p>Built to WCAG basics with keyboard focus states, reduced motion option, and clear hierarchy.</p>
+            <div class="project-tags"><span>A11y</span><span>Design</span><span>Performance</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image" style="background-image:url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80');"></div>
+          <div class="project-body">
+            <p class="project-label">Interactions</p>
+            <h3>Dashboard UI</h3>
+            <p>Lightweight dashboard with cards, charts, and micro-interactions powered by vanilla JS.</p>
+            <div class="project-tags"><span>UI</span><span>Charts</span><span>SPA</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect</h2>
+        <p class="section-desc">Tell me about your team, project, or internship—I'll reply quickly.</p>
+      </div>
+      <form class="contact-form">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Alex Doe" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me about the opportunity…" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <p class="form-footnote">No backend yet—feel free to connect via LinkedIn or email.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p class="footer-brand">Your Name</p>
+      <p>Fresh graduate • Front-end developer</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:hello@example.com">Email</a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
